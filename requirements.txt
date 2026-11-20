@@ -1,16 +1,8 @@
-# AMML Ranking — финальный пайплайн Experiment 21 Best Pair
-# Runtime, подтверждённый в успешном Colab GPU запуске:
-# Python 3.13.16; Linux; NVIDIA Tesla T4 14.56 GiB
-# PyTorch 2.14.1+cu130 — поставляется образом Google Colab; не переустанавливать через pip.
-#
-# Точные версии, зафиксированные в журнале успешного GPU запуска:
+Python 3.13.16; Linux; NVIDIA Tesla T4 14.56 GiB
+PyTorch 2.14.1+cu130 — поставляется образом Google Colab; не переустанавливать через pip.
 transformers==5.22.1
 peft==0.21.2
 einops==0.8.2
-
-# Прямые зависимости solution.ipynb.
-# Для базовых библиотек в историческом запуске сохранены нижние границы,
-# но не полный pip freeze; фактический freeze ноутбук сохраняет при запуске.
 numpy>=2.2.6,<3.0
 pandas>=2.2.3,<3.0
 scikit-learn>=1.6.1,<2.0
