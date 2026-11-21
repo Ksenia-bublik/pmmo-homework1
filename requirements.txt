@@ -1,0 +1,20 @@
+# PyTorch с CUDA берётся из GPU-образа Colab/Kaggle; отдельно его не переустанавливать.
+transformers==5.22.1
+sentence-transformers==6.3.0
+peft==0.21.2
+einops==0.8.2
+FlagEmbedding>=1.3.5,<2.0
+natasha>=1.6.0
+lightgbm>=4.6.0
+scikit-learn>=1.6.1,<2.0
+numpy>=2.2.6,<3.0
+pandas>=2.2.3,<3.0
+scipy>=1.15.3
+accelerate>=1.0.0
+huggingface-hub>=1.0.0
+safetensors>=0.4.0
+tokenizers>=0.20.0
+sentencepiece==0.2.1
+packaging>=24.0
+
+ipython>=8.0
